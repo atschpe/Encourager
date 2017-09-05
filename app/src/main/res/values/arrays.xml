@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="task_list">
+        <item>@string/chore</item>
+        <item>@string/helped</item>
+        <item>@string/homework</item>
+        <item>@string/tidied</item>
+        <item>@string/other</item>
+    </string-array>
+
+    <string-array name="star_list">
+        <item>@string/star_1</item>
+        <item>@string/star_2</item>
+        <item>@string/star_3</item>
+        <item>@string/star_4</item>
+        <item>@string/star_5</item>
+    </string-array>
+
+</resources>

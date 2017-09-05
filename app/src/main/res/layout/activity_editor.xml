@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/standard_pad"
+    tools:context="com.example.android.encourager.EditorActivity">
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            style="@style/Titles"
+            android:text="@string/task" />
+
+        <Spinner
+            android:id="@+id/task_spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            style="@style/Titles"
+            android:text="@string/details" />
+
+        <EditText
+            android:id="@+id/details_edittext"
+            style="@style/EditText"
+            android:hint="@string/details_edittext"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            style="@style/Titles"
+            android:text="@string/stars" />
+
+        <Spinner
+            android:id="@+id/stars_spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            style="@style/Titles"
+            android:text="@string/comments" />
+
+        <EditText
+            android:id="@+id/comments_edittext"
+            style="@style/EditText"
+            android:hint="@string/comments_edittext" />
+    </TableRow>
+</TableLayout>

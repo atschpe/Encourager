@@ -1,0 +1,50 @@
+<!-- thumbs up: http://www.vectorfree.com/thumbs-up
+star: http://hddfhm.com/images/christmas-clipart-free-star-19.png -->
+
+<resources>
+    <string name="app_name">Encourager</string>
+    <string name="colon">:\u0020</string>
+    <string name="empty_view">No accomplishments added yet.\nTap the thumbs up button to get started.</string>
+    <string name="dummy">add Dummy</string>
+    <string name="delete_all">Delete all accomplishments</string>
+    <string name="cancel">Cancel</string>
+
+
+    <!-- tasks -->
+    <string name="chore">Completed assigned chore</string>
+    <string name="homework">Completed homework</string>
+    <string name="helped">Helped someone</string>
+    <string name="tidied">Tidied up</string>
+    <string name="other">Other</string>
+
+    <!-- star count -->
+    <string name="star_1">Award one star</string>
+    <string name="star_2">Award two stars</string>
+    <string name="star_3">Award three stars</string>
+    <string name="star_4">Award four stars</string>
+    <string name="star_5">Award five Stars</string>
+
+    <!-- For Editor Activity -->
+    <string name="task">Task:</string>
+    <string name="details">Details:</string>
+    <string name="details_edittext">… about the task.</string>
+    <string name="comments">Comments:</string>
+    <string name="comments_edittext">Anything to add?</string>
+    <string name="stars">Stars awarded:</string>
+    <string name="new_accomplishment">Add new Accomplishment</string>
+    <string name="edit_accomplishment">Edit Accomplishment</string>
+    <string name="save">Save</string>
+    <string name="delete">Delete</string>
+
+    <!-- Dialog texts -->
+    <string name="error_save">There was an error saving the Accomplishment</string>
+    <string name="successful_save">Successfully saved accomplishment</string>
+    <string name="error_update">Error updating the accomplishment</string>
+    <string name="successful_udpate">The Accomplishment was successfully updated</string>
+    <string name="delete_query">Delete this accomplishment?</string>
+    <string name="discard_query">Quit editing and discard your changes?</string>
+    <string name="discard">Discard</string>
+    <string name="keep_editing">Keep Editing</string>
+    <string name="delete_error">Error deleting accomplishment</string>
+    <string name="delete_successful">Accomplishment successfully deleted</string>
+</resources>
